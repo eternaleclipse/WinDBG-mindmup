@@ -72,6 +72,16 @@
               "id": 108
             }
           }
+        },
+        "7": {
+          "title": "Do something on breakpoint trigger",
+          "id": 267,
+          "ideas": {
+            "1": {
+              "title": "bp  address \"windbg commands; ...\"",
+              "id": 268
+            }
+          }
         }
       },
       "attr": {
@@ -942,108 +952,6 @@
         ]
       }
     },
-    "4.5": {
-      "title": "The Debugee / Process / Program",
-      "id": 59,
-      "ideas": {
-        "1": {
-          "title": "List processes",
-          "id": 43,
-          "ideas": {
-            "1": {
-              "title": ".tlist *explor* (optional wildcard for filtering process name)",
-              "id": 44
-            }
-          },
-          "attr": {
-            "style": {}
-          }
-        },
-        "2": {
-          "title": "Attach to a program",
-          "id": 24,
-          "ideas": {
-            "1": {
-              "title": ".attach pid",
-              "id": 25
-            }
-          },
-          "attr": {
-            "style": {}
-          }
-        },
-        "3": {
-          "title": "Pause / break the program's execution",
-          "id": 30,
-          "ideas": {
-            "1": {
-              "title": "CTRL+Break",
-              "id": 31
-            }
-          },
-          "attr": {
-            "style": {}
-          }
-        },
-        "4": {
-          "title": "Restart the program",
-          "id": 22,
-          "ideas": {
-            "1": {
-              "title": ".restart",
-              "id": 23
-            }
-          },
-          "attr": {
-            "style": {}
-          }
-        },
-        "5": {
-          "title": "Run",
-          "id": 220
-        },
-        "2.5": {
-          "title": "Detach",
-          "id": 189,
-          "attr": {
-            "style": {}
-          },
-          "ideas": {
-            "1": {
-              "title": ".detach",
-              "id": 190
-            }
-          }
-        },
-        "1.5": {
-          "title": "Start a program",
-          "id": 191,
-          "attr": {
-            "style": {}
-          },
-          "ideas": {
-            "1": {
-              "title": ".create [command line]",
-              "id": 192
-            }
-          }
-        }
-      },
-      "attr": {
-        "icon": {
-          "url": "internal:10/434b3ddb-a750-bd3f-8964-67428a57778d/",
-          "width": 24,
-          "height": 24,
-          "position": "top"
-        },
-        "style": {},
-        "position": [
-          208,
-          -1215,
-          14
-        ]
-      }
-    },
     "-41": {
       "title": "Help",
       "id": 53,
@@ -1217,6 +1125,108 @@
             "style": {}
           }
         }
+      }
+    },
+    "4.5": {
+      "title": "The Debugee / Process / Program",
+      "id": 59,
+      "ideas": {
+        "1": {
+          "title": "List processes",
+          "id": 43,
+          "ideas": {
+            "1": {
+              "title": ".tlist *explor* (optional wildcard for filtering process name)",
+              "id": 44
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Attach to a program",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": ".attach pid",
+              "id": 25
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "Pause / break the program's execution",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "CTRL+Break",
+              "id": 31
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Restart the program",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": ".restart",
+              "id": 23
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "5": {
+          "title": "Run",
+          "id": 220
+        },
+        "2.5": {
+          "title": "Detach",
+          "id": 189,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": ".detach",
+              "id": 190
+            }
+          }
+        },
+        "1.5": {
+          "title": "Start a program",
+          "id": 191,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": ".create [command line]",
+              "id": 192
+            }
+          }
+        }
+      },
+      "attr": {
+        "icon": {
+          "url": "internal:10/434b3ddb-a750-bd3f-8964-67428a57778d/",
+          "width": 24,
+          "height": 24,
+          "position": "top"
+        },
+        "style": {},
+        "position": [
+          208,
+          -1215,
+          14
+        ]
       }
     }
   },
